@@ -1,0 +1,27 @@
+{{ with .Get "id" }}
+<!-- <iframe
+        src="https://dartpad.dev/embed-dart.html?id={{ . }}&split=80&theme=dark"
+        title="SlideShare Presentation"
+        height="400"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="no"
+        style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 20px; width: 100%;"
+        allowfullscreen="true">
+    </iframe> -->
+<!-- <iframe
+    src="https://dartpad.dev/embed-dart.html?id={{ . }}&split=80&theme=dark"
+    style="width:800px;height:800px;"
+    > -->
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://speakerdeck.com/player/{{ . }}" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="encrypted-media"></iframe></div>    
+<!-- <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;">
+    <iframe src="https://speakerdeck.com/player/{{ . }}"
+        style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+        allowfullscreen
+        scrolling="no" allow="encrypted-media">
+    </iframe>
+</div> -->
+</iframe>
+
+{{ end }}

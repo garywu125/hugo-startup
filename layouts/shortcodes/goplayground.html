@@ -1,0 +1,20 @@
+{{ with .Get "id" }}
+    <!-- <iframe
+        src="https://dartpad.dev/embed-dart.html?id={{ . }}&split=80&theme=dark"
+        title="SlideShare Presentation"
+        height="400"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="no"
+        style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 20px; width: 100%;"
+        allowfullscreen="true">
+    </iframe> -->
+    <!-- <iframe
+    src="https://play.golang.org/p/{{ . }}"
+    style="width:800px;height:800px;"
+    > -->
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;"><iframe src="https://play.golang.org/p/{{ . }}" style="background-color:white;border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="yes" allow="encrypted-media"></iframe></div>   
+</iframe>
+
+{{ end }}
