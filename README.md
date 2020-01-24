@@ -1,4 +1,6 @@
 deploy netlify:
+ - set page content front matter: 
+    draft: false
  - before git:
    add file : netlify.toml (**update hugo version**)
    update config.toml :
