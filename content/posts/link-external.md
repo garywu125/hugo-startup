@@ -8,9 +8,8 @@ draft: false
 <!-- 學習連結 -->
 <!-- https://www.w3schools.com/tags/tag_a.asp -->
 
-
 # 大手 <a id="bighand"></a> 
-
+{{< visualdata id="a61ee370-7907-4bdb-b3c1-4451ded983fb">}}
 SlideShow :幻燈片放映   
 來源:https://speakerdeck.com/ 製作:https://iframely.com/
   
@@ -101,3 +100,5 @@ func main() {
 <!-- ref description-a-id<id名稱>a -->
 [Jump to 可憐蟲]({{< ref "#可憐蟲-a-idinsecta" >}})
 [Jump to 大手]({{< ref "#大手-a-idbighanda" >}})
+
+
